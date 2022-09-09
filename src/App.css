@@ -1,0 +1,358 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+* {
+  box-sizing: border-box;
+  
+}
+html,body{
+  overflow-x:  hidden !important;
+}
+ 
+.text{
+  color: black;
+  margin-top: 85px;
+  margin-left: 15px;
+}
+.login {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px 0 20px 0;
+}
+
+.h3.mb-3{
+  margin-left: 680px;
+}
+
+.form-signin{
+  margin-left: 30px;
+  margin-right:300px;
+  align-items: center;
+}
+
+input,
+.btn {
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+ 
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+ 
+ 
+/* style the submit button */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+ 
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+ 
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+
+
+
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+li {
+  float:center;
+}
+ 
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+ 
+li a:hover {
+  background-color:#666;
+  color: white;
+  text-decoration: none;
+} 
+ 
+.push-right {
+  float: right;
+  line-height: 50px;
+  color: white;
+}
+
+
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .vl {
+    display: none;
+  }
+  
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+/*Carts*/
+
+.container {
+  margin-top: 200px;
+  margin: 30px auto;
+  width: 350px;
+}
+
+
+.inc-exp-container {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
+
+.inc-exp-container > div:first-of-type {
+  border-right: 1px solid #dedede;
+}
+
+.money {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+.money.plus {
+  color: #2ecc71;
+}
+
+.money.minus {
+  color: #c0392b;
+}
+
+
+
+
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.cart-header {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* 
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ 
+ .Cart-Container{
+  width: 70%;
+  height: 85%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 25px 40px #1687d933;
+ }
+
+ .Header{
+  margin: auto;
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .Heading{
+  font-size: 20px;
+  font-family: ‘Open Sans’;
+  font-weight: 700;
+  color: #2F3841;
+ }
+ .Action{
+  font-size: 14px;
+  font-family: ‘Open Sans’;
+  font-weight: 600;
+  color: #E44C4C;
+  cursor: pointer;
+  border-bottom: 1px solid #E44C4C;
+ } */
+
+/*cards*/
+
+.cloth{
+  margin-top: 150px;
+  margin-left: 120px;
+}
+
+.access{
+  margin-top: 150px;
+  margin-left: 120px;
+}
+.groc{
+  margin-top: 150px;
+  margin-left: 120px;
+}
+
+.hmk{
+  margin-top: 150px;
+  margin-left: 120px;
+}
+:root {
+  --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+}
+
+body {
+  background: whitesmoke !important;
+}
+
+.card {
+  background: #222;
+  border: 1px solid #dd2476;
+  color: rgba(24, 21, 21, 0.8);
+  margin-bottom: 2rem;
+}
+
+.quantity{
+  width: 35%;
+  
+}
+
+.btn {
+  border: 5px solid;
+  border-image-slice: 1;
+  background: var(--gradient) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  border-image-source:  var(--gradient) !important; 
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+.btn:hover, .btn:focus {
+      background: var(--gradient) !important;
+  -webkit-background-clip: none !important;
+  -webkit-text-fill-color: #fff !important;
+  border: 1px solid #fff !important; 
+  box-shadow: #222 1px 0 10px;
+  text-decoration: none;
+}
+
+/*carousel*/
+.Carousel{
+  position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
